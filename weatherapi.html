@@ -1,0 +1,70 @@
+
+<html>
+<head>
+	<title>
+		Check
+
+	</title>
+</head>
+<link rel="stylesheet" href="check.css">
+<body>
+
+<center>
+<div class="container">
+	<div class="child">
+		<div class="childA" id="localtime">Date ------- Time</div>
+		<div class="childB">
+			<div class="childB1" id="condition">Weather condition</div>
+			<div class="childB2" id="name">Address</div>
+			<h3><div class="childB3" id="temperature"><h1>XX C</h1></div><h3>
+		</div>
+		<div class="childC" id="photo">PHOTO</div>
+		<div class="childD">
+			<div class="childD1">
+				<div class="childD1_a">
+					<div class="childD1_a1">Humidity</div>
+					<div class="childD1_a2" id="humidity"></div>
+				</div>
+				<div class="childD1_b">
+					<div class="childD1_a1">Precipitation</div>
+					<div class="childD1_a2" id="precipitation"></div>
+				</div>
+				<div class="childD1_c">
+					<div class="childD1_a1">CO</div>
+					<div class="childD1_a2" id="CO"></div>
+				</div>
+				<div class="childD1_d">
+					<div class="childD1_a1">NO<sub>2</sub></div>
+					<div class="childD1_a2" id="NO"></div>
+				</div>
+			</div>	
+			<div class="childD2">
+				<div class="childD1_a">
+					<div class="childD1_a1">O<sub>3</sub></div>
+					<div class="childD1_a2" id="o3"></div>
+				</div>
+				<div class="childD1_b">
+					<div class="childD1_a1">SO<SUB>2</SUB></div>
+					<div class="childD1_a2" id="so2"></div>
+				</div>
+				<div class="childD1_c">
+					<div class="childD1_a1">PM10</div>
+					<div class="childD1_a2" id="pm10"></div>
+				</div>
+				<div class="childD1_d">
+					<div class="childD1_a1">NO<sub>2</sub></div>
+					<div class="childD1_a2" id="pm2_5"></div>
+				</div>
+			</div>	
+		</div>
+
+	</div>
+</div>
+
+<div><button id="button1" onclick="process()">Check Weather</button></div>
+</center>
+</body>
+<p id="data"></p>
+<script src="check.js"></script>
+
+</html>
